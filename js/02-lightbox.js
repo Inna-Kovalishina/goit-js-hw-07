@@ -4,8 +4,8 @@ import { galleryItems } from './gallery-items.js';
 const galleryEl = document.querySelector('.gallery')
 
 const makeImageItemMarkup = ({preview, original, description}) => {
-    return `<a class="gallery__item" href=${original}>
-  <img class="gallery__image" src=${preview} alt=${description} />
+    return `<a class="gallery__item" href="${original}">
+  <img class="gallery__image" src="${preview}" alt="${description}" />
 </a>`
 }
 
